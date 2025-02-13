@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-block: 90px 24px;
+}
+
+.footer__copyright {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.footer__copyright-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer__copyright-link:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 426px) {
+  .footer {
+    margin-block: 64px 24px;
+  }
+  .footer__copyright {
+    line-height: 1;
+  }
+}
