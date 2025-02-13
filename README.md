@@ -1,6 +1,6 @@
-# TripleTen Art Gallery
+<img src="./favicon.ico" alt="Logo da TripleTen Art Gallery">
 
-## Descrição do Projeto
+# TripleTen Art Gallery
 
 O projeto TripleTen Art Gallery é uma galeria de arte online que exibe uma coleção diversificada de obras de arte. O objetivo é proporcionar uma experiência visual agradável e acessível para os amantes da arte, permitindo que explorem e apreciem diferentes estilos e artistas.
 
@@ -17,4 +17,4 @@ Você pode acessar o site através do seguinte link: [TripleTen Art Gallery](htt
 
 ## Preview
 
-<img src="./images/preview.png">
+<img src="./images/preview.png" alt="Preview do Website">
