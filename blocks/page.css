@@ -16,14 +16,14 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-.main {
+.content {
   display: flex;
   flex-direction: column;
   row-gap: 90px;
 }
 
 @media screen and (max-width: 320px) {
-  .main {
+  .content {
     row-gap: 64px;
   }
 }
