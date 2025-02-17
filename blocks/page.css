@@ -6,11 +6,11 @@
 
 body {
   background-color: #2a2c2f;
+  overflow-x: hidden;
 }
 
 .page {
   color: #ffffff;
-  overflow-x: hidden;
   max-width: 1050px;
   margin: 0 auto;
   font-family: "Inter", sans-serif;
