@@ -78,15 +78,19 @@
   color: #ffffff;
   padding: 13px 20px;
   border-radius: 4px;
-  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+  background-image: linear-gradient(
+    to right,
+    rgba(2, 120, 254, 1) 0%,
+    rgba(0, 58, 123, 1) 100%
+  );
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
 }
 
 .place__link:hover {
-  background: linear-gradient(
-    90deg,
+  background-image: linear-gradient(
+    to right,
     rgba(2, 120, 254, 0.25) 0%,
-    rgba(0, 58, 123, 0.25) 99.98%
+    rgba(0, 58, 123, 0.25) 100%
   );
 }
 
