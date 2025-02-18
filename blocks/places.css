@@ -17,85 +17,6 @@
   align-items: start;
 }
 
-.place__title {
-  grid-area: title;
-  font-size: 72px;
-  line-height: 76px;
-  font-weight: 900;
-}
-
-.place__artists {
-  grid-area: artists;
-  display: flex;
-  flex-direction: column;
-  align-self: end;
-}
-
-.place__artists-title {
-  font-weight: 400;
-  text-transform: uppercase;
-  font-size: 12px;
-  line-height: auto;
-  color: #aaaaaa;
-  letter-spacing: 12%;
-  margin-bottom: 8px;
-}
-
-.place__artists-item {
-  font-size: 18px;
-  line-height: 22px;
-}
-
-.place__image {
-  grid-area: image;
-  width: 100%;
-  height: auto;
-  display: block;
-  object-fit: cover;
-  object-position: center;
-  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
-  cursor: pointer;
-  transition: filter 0.3s;
-}
-
-.place__image:hover {
-  filter: brightness(50%);
-}
-
-.place__description {
-  grid-area: description;
-  display: flex;
-  flex-direction: column;
-  row-gap: 25px;
-  flex-grow: 1;
-}
-
-.place__paragraph {
-  font-size: 18px;
-  line-height: 1.6;
-}
-
-.place__link {
-  grid-area: link;
-  justify-self: start;
-  display: inline-block;
-  font-size: 18px;
-  text-decoration: none;
-  color: #ffffff;
-  padding: 13px 20px;
-  border-radius: 4px;
-  background-image: linear-gradient(to right, #0278fe, #003a7b);
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
-}
-
-.place__link:hover {
-  background-image: linear-gradient(
-    to right,
-    rgba(2, 120, 254, 0.25),
-    rgba(0, 58, 123, 0.25)
-  );
-}
-
 @media screen and (max-width: 1024px) {
   .places {
     padding-inline: 24px;
@@ -109,16 +30,6 @@
 
   .places__item {
     column-gap: 28px;
-  }
-  .place__title {
-    font-size: 42px;
-    line-height: 46px;
-  }
-  .place__paragraph {
-    font-size: 16px;
-  }
-  .place__link {
-    font-size: 16px;
   }
 }
 
@@ -136,35 +47,5 @@
       "description"
       "link";
     gap: 30px;
-  }
-
-  .place__title {
-    font-size: 32px;
-    line-height: 35px;
-  }
-
-  .place__artists {
-    align-self: start;
-  }
-
-  .place__image {
-    width: calc(100% + 32px);
-    margin-left: -16px;
-    margin-right: -16px;
-    box-shadow: none;
-  }
-
-  .place__description {
-    row-gap: 20px;
-  }
-
-  .place__paragraph {
-    font-size: 16px;
-  }
-
-  .place__link {
-    width: 100%;
-    text-align: center;
-    font-size: 14px;
   }
 }
