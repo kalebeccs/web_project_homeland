@@ -70,7 +70,7 @@
   line-height: 1.6;
 }
 
-.place__frame {
+.place__link {
   grid-area: link;
   justify-self: start;
   display: inline-block;
@@ -83,7 +83,7 @@
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
 }
 
-.place__frame:hover {
+.place__link:hover {
   background: linear-gradient(
     90deg,
     rgba(2, 120, 254, 0.25) 0%,
