@@ -1,3 +1,16 @@
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto 1fr;
+  grid-template-areas:
+    "title artists"
+    "image description"
+    "link description";
+  row-gap: 48px;
+  column-gap: 40px;
+  align-items: start;
+}
+
 .place__title {
   grid-area: title;
   font-size: 72px;
@@ -78,6 +91,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .place {
+    column-gap: 28px;
+  }
   .place__title {
     font-size: 42px;
     line-height: 46px;
@@ -91,6 +107,16 @@
 }
 
 @media screen and (max-width: 480px) {
+  .place {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "artists"
+      "image"
+      "description"
+      "link";
+    gap: 30px;
+  }
   .place__title {
     font-size: 32px;
     line-height: 35px;

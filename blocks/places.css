@@ -4,19 +4,6 @@
   row-gap: 80px;
 }
 
-.places__item {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto auto 1fr;
-  grid-template-areas:
-    "title artists"
-    "image description"
-    "link description";
-  row-gap: 48px;
-  column-gap: 40px;
-  align-items: start;
-}
-
 @media screen and (max-width: 1024px) {
   .places {
     padding-inline: 24px;
@@ -27,25 +14,10 @@
   .places {
     row-gap: 72px;
   }
-
-  .places__item {
-    column-gap: 28px;
-  }
 }
 
 @media screen and (max-width: 480px) {
   .places {
     padding-inline: 16px;
-  }
-
-  .places__item {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "title"
-      "artists"
-      "image"
-      "description"
-      "link";
-    gap: 30px;
   }
 }
