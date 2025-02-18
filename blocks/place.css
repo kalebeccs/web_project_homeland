@@ -47,7 +47,7 @@
   display: block;
   object-fit: cover;
   object-position: center;
-  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.5);
   cursor: pointer;
   transition: filter 0.3s;
 }
@@ -83,10 +83,10 @@
 }
 
 .place__link:hover {
-  background-image: linear-gradient(
-    to right,
+  background: linear-gradient(
+    90deg,
     rgba(2, 120, 254, 0.25) 0%,
-    rgba(0, 58, 123, 0.25) 100%
+    rgba(0, 58, 123, 0.25) 99.98%
   );
 }
 
